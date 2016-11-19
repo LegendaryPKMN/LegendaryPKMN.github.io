@@ -735,7 +735,7 @@ function code_save() { //Displays a SaveCode
 		if (i > 0) { r = s[i-1].id.split('-')[1]; }
 	} while (i--);
 	display_status('<a href="'+c+'">SaveCode</a> (<a href="http://j.mp/http://legendarypkmn.github.io/javacalc.html'+c+'">shorten</a>):<br/>'+c.split('!').join('! '));
-	$('contact').href = 'http://www.legendarypkmn.net/contact?topic=IV%20Calculator&text='+escape('My browser is: '+navigator.userAgent+'\nMy savecode is: '+c+'\n\n');
+	$('contact').href = 'https://legendarypkmn.net/contact?topic=IV%20Calculator&text='+escape('My browser is: '+navigator.userAgent+'\nMy savecode is: '+c+'\n\n');
 	//window.location += c; //Uncomment for old behaviour
 }
 
@@ -1293,7 +1293,7 @@ function add_sprite() { //Adds sprite events
 	display_sprite();
 }
 spr = '';
-function display_sprite() { //Displays sprites from http://www.legendarypkmn.net/
+function display_sprite() { //Displays sprites from https://legendarypkmn.net/
 	clearTimeout(spr);
 	if (!navigator.onLine) {
 		online = 0;
@@ -1506,7 +1506,7 @@ event_add(window,"load", init0);
 </script>
 <div id="head" class="block">
 <table><tr><td class="primary"><h1>Advanced Individual Value &amp; Stat Calculator</h1></td>
-<td class="secondary"><a href="http://www.legendarypkmn.net">LegendaryPKMN .net</a></td></tr></table> <!-- feel free to put your branding here -->
+<td class="secondary"><a href="https://legendarypkmn.net">LegendaryPKMN .net</a></td></tr></table> <!-- feel free to put your branding here -->
 </div><!-- end header -->
 <noscript><div class="block"><p class="center">JavaScript is required in order for the Calculator to function. You have to allow blocked content in your browser.</p></div></noscript>
 <div id="gui" class="block"><form id="form" action="" onsubmit="return false;"><table>
@@ -1785,7 +1785,7 @@ event_add(window,"load", init0);
 <p> Pokémon Ruby, Sapphire, Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, HeartGold, SoulSilver, Black, White, Black2, White2 for the <em>Nintendo DS</em> and Pokémon Colosseum, XD, Battle Revolution for the <em>Nintendo Wii</em>.</p>
 <p>Several Pokémon have had their Base Stats changed in <strong>Pokémon X &amp; Y</strong>, therefore this calculator is incompatible with them, but you can use the <a href="http://legendarypkmn.github.io/ivcalcxy.html">XY Individual Value &amp; Stat Calculator</a> instead.</p>
 <h3>About</h3>
-<p>This IV Calculator / Stat Calculator / Hidden Power Calculator has been written by Heracles Papatheodorou a.k.a Arty2, webmaster of <a href="http://www.legendarypkmn.net" id="lp">Legendary Pokémon</a>. It allows the calculation of any Pokémon's  Individual Values when given the Pokémon's details.</p>
+<p>This IV Calculator / Stat Calculator / Hidden Power Calculator has been written by Heracles Papatheodorou a.k.a Arty2, webmaster of <a href="https://legendarypkmn.net" id="lp">Legendary Pokémon</a>. It allows the calculation of any Pokémon's  Individual Values when given the Pokémon's details.</p>
 <p>It's written in <strong>JavaScript</strong> to ensure cross-system compatibility. It is a small single file download and requires nothing but a browser with JavaScript enabled. It <em>should</em> work flawlessly in Internet Explorer, Opera, Firefox, Chrome and Safari on any system, including the Nintendo DSi.</p>
 <p>If you want to translate, modify this program or include it in your website, please read the License provided below.</p>
 
@@ -1832,7 +1832,7 @@ event_add(window,"load", init0);
  <dt>Version 7.1 (19/March/2007)</dt>
  	<dd>Updated all names to english Diamond &amp; Pearl Pokémon names.</dd>
  <dt>Version 7 "Tagsoup" (24/February/2007)</dt>
- 	<dd>Theme system added, new Save feature; older Saves are incompatible. <a href="http://www.legendarypkmn.net/2007/02/24/English/new-version-of-the-individual-value-calculator">Read more...</a></dd>
+ 	<dd>Theme system added, new Save feature; older Saves are incompatible. <a href="https://legendarypkmn.net/2007/02/24/English/new-version-of-the-individual-value-calculator">Read more...</a></dd>
  <dt>Version 7 "Tagsoup" beta (10/February/2007)</dt>
  	<dd>Completely rewritten hence the version jump; new GUI, functions and underlying code. A lot of thanks to Brett Harris for improving some of the IV calculation functions used in the previous version. First public beta.</dd>
  <dt>Version 5 (02/November/2006)</dt>
@@ -1879,7 +1879,7 @@ event_add(window,"load", init0);
 <h2 id="toggleinstructions">Instructions &#177;</h2>
  	<div id="instructions">
 	<h3>What are IVs and EPs?</h3>
-		<p>If such terms <span class="tooltip" title="pun intented">sound Greek</span> to you, then you should read a <a href="http://www.legendarypkmn.net/training">Pokémon Training Guide</a> before using this tool.</p>
+		<p>If such terms <span class="tooltip" title="pun intented">sound Greek</span> to you, then you should read a <a href="https://legendarypkmn.net/training">Pokémon Training Guide</a> before using this tool.</p>
 	<h3>User Interface</h3>
 	<dl>
 		<dt>Save</dt><dd>Generates a SaveCode and a link (URL) that you can keep in your bookmarks or send to a friend.</dd>
@@ -1909,9 +1909,9 @@ event_add(window,"load", init0);
 </div></td>
 </tr>
 <tr><td class="primary">
-<p class="center">Please <a class="tooltip" id="contact" href="http://www.legendarypkmn.net/contact?topic=IV%20Calculator" title="Click [Save] before reporting a bug.">contact the author</a> for all errors or requests.</p>
+<p class="center">Please <a class="tooltip" id="contact" href="https://legendarypkmn.net/contact?topic=IV%20Calculator" title="Click [Save] before reporting a bug.">contact the author</a> for all errors or requests.</p>
 </td>
-<td class="secondary">courtesy of <a href="http://www.legendarypkmn.net">LegendaryPKMN .net</a>
+<td class="secondary">courtesy of <a href="https://legendarypkmn.net">LegendaryPKMN .net</a>
 </td></tr>
 </table>
 </div><!-- end documentation -->
